@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
 import { io } from "socket.io-client";
 
-const socket = io("https://rummy-backend.vercel.app/");
+const socket = io("http://192.168.0.74:80");
 
 // ================= TYPES =================
 
